@@ -11,8 +11,8 @@ console.log('El primer número es: ' + num1 + '\nEl segundo número es: ' + num2
 //Función para sumar los números.
 function sumaNumeros(x, y){
     let suma = x + y;
-    console.log('La suma de ambos números es: ' + suma);
+    return ('La suma de ambos números es: ' + suma);
 }
 
 //Se ejecuta la función de suma con los parámetros necesarios.
-sumaNumeros(num1, num2);
+console.log(sumaNumeros(num1, num2));

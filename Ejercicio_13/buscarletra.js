@@ -8,12 +8,9 @@ let cadena2 = 'Mejor es callar y escuchar que hablar';
 //función que busca entre el texto recibido como parámetro la letra 'a'.
 function buscarLetraA(texto){
     console.log('¿El siguiente texto contiene la letra "a"?: \n' + texto);
-    if (texto.includes('a') == true || texto.includes('A') == true) {
-        console.log('True');
-    } else
-        console.log('False');
+    return texto.includes('a') || texto.includes('A');
 }
 
 //Se ejecutan las funciones con su parámetro correspondiente.
-buscarLetraA(cadena);
-buscarLetraA(cadena2);
+console.log(buscarLetraA(cadena));
+console.log(buscarLetraA(cadena2));
